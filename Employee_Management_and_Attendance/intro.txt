@@ -1,1 +1,14 @@
+# Employee Management and Attendance Tracker
+
+This PostgreSQL-backed project tracks employee details, departmental structure, and daily attendance while providing reports and predictive attrition analysis. The solution includes triggers, functions, and analytics relevant to HR systems.
+
+## Key Features:
+- PostgreSQL schema with `Departments`, `Roles`, `Employees`, and `Attendance` tables.
+- Trigger to auto-fill attendance status.
+- Simulated multi-day attendance with `Present`, `Late`, and `Absent` tags.
+- Grouped reports showing employee attendance percentages.
+- Function to compute total working hours per employee.
+- Machine Learning model to predict employee attrition based on HR dataset.
+
+Designed for internships and resume projects, this system emphasizes database-driven logic, real-world HR analytics, and structured PostgreSQL usage.
 
