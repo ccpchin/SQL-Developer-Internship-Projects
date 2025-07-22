@@ -1,1 +1,14 @@
+# Airline Reservation System
 
+This project simulates a flight booking system with a SQLite-based backend and a machine learning model for predicting no-show passengers. It covers core functionalities such as flight management, dynamic pricing, booking, cancellations, audit logs, and analytics.
+
+## Key Features:
+- SQLite-powered schema with `Flights`, `Bookings`, and `Booking_Audit` tables.
+- Booking logic with seat availability and audit trail.
+- Flight search with filters for source, destination, and date.
+- Dynamic pricing and seat inventory management.
+- ML model (Logistic Regression) to predict likely no-show passengers.
+- Summary reports grouped by airline bookings.
+- Exception logging for robust error tracking.
+
+This was developed as part of a data science and backend internship challenge and focuses on clean schema design, logic implementation, and predictive modeling.
