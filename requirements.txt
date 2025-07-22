@@ -1,0 +1,4 @@
+pandas
+scikit-learn
+sqlite3
+psycopg2
